@@ -5,8 +5,9 @@ from config import Config
 
 
 class ChatResponsePredictionModel:
-    def __init__(self) -> None:
+    def __init__(self, model_name: str) -> None:
         self.config = Config()
+        self.model_name = model_name
 
     def execute(self, X_train: list, y_train: list) -> None:
         model = Sequential(
@@ -40,4 +41,6 @@ class ChatResponsePredictionModel:
             verbose=1,
         )
 
-        model.save(self.config.get_model_path() + "/chatbot_model.h5", hist)
+        model.save(
+            self.config.get_model_path() + "/" + self.model_name + "_model.h5", hist
+        )
