@@ -1,3 +1,5 @@
 from .chat_response_prediction_model import ChatResponsePredictionModel
+from .predict_configuration_model import PredictConfigurationModel
+from .predict_information_model import PredictInformationModel
 
-__all__ = [ChatResponsePredictionModel]
+__all__ = [ChatResponsePredictionModel, PredictConfigurationModel, PredictInformationModel]

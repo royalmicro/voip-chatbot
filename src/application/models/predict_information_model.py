@@ -4,8 +4,7 @@ from keras.optimizers import SGD
 from config import Config
 import numpy as np
 
-
-class ChatResponsePredictionModel:
+class PredictInformationModel:
     def __init__(self, model_name: str) -> None:
         self.config = Config()
         self.model_name = model_name
@@ -36,7 +35,7 @@ class ChatResponsePredictionModel:
         hist = model.fit(
             X_train,
             y_train,
-            epochs=1000,
+            epochs=500,
             batch_size=5,
             validation_split=0.2,
             verbose="1",

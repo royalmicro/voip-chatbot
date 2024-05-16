@@ -1,0 +1,60 @@
+{
+    "init": [
+        {
+            "tag": "configuration",
+            "patterns": [
+                "Como configurar un ",
+                "Configuracion de ",
+                "configurar un ",
+                "Configuracion ",
+                "Quiero configurar un"
+            ],
+            "responses": [
+                "configuration"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Asistencia tecnica",
+                "Asistencia",
+                "Tecnico",
+                "Tecnica",
+                "Ayuda",
+                "Ayuda tecnica"
+            ],
+            "responses": [
+                "Perfecto!. Ahora mismo te dirigimos al primer tecnico disponible",
+                "Transfiriendo al primer tecnico disponible..."
+            ]
+        },
+        {
+            "tag": "information",
+            "patterns": [
+                "Quiero saber el significado de",
+                "Me gustaria saber para que sirven los carriers",
+                "Significado de carrier",
+                "Para que se usan",
+                "De que me vale configurar",
+                "Para que sirve un",
+                "Quiero saber como usar ",
+                "Necesito saber informacion",
+                "Necesito informacion sobre",
+                "¿Que es un carrier?"
+            ],
+            "responses": [
+                "Esta es la informacion por defecto de la informacion ahora mismo te informamos que no tenemos informacion para la informacion que pides"
+            ]
+        },
+        {
+            "tag": "unhandled",
+            "patterns": [
+                " ",
+                ""
+            ],
+            "responses": [
+                "No he entendido la pregunta. ¿Puedes volver a formularla?"
+            ]
+        }
+    ]
+}

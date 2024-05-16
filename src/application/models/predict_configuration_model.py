@@ -4,8 +4,7 @@ from keras.optimizers import SGD
 from config import Config
 import numpy as np
 
-
-class ChatResponsePredictionModel:
+class PredictConfigurationModel:
     def __init__(self, model_name: str) -> None:
         self.config = Config()
         self.model_name = model_name
@@ -18,6 +17,10 @@ class ChatResponsePredictionModel:
                 Dropout(0.5),
                 Dense(
                     64, activation="relu"
+                ),  # Another hidden layer with ReLU activation
+                Dropout(0.5),
+                Dense(
+                    32, activation="relu"
                 ),  # Another hidden layer with ReLU activation
                 Dropout(0.5),
                 Dense(

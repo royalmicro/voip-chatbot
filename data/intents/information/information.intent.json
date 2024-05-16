@@ -1,0 +1,70 @@
+{
+    "information": [
+        {
+            "tag": "carrier",
+            "patterns": [
+                "carrier",
+                "carriers"
+            ],
+            "responses": [
+                "Carriers are used for placing external outgoing calls."
+            ]
+        },
+        {
+            "tag": "ddi",
+            "patterns": [
+                "ddi",
+                "ddis"
+            ],
+            "responses": [
+                "DDI significa \"Marcado directo\" y estos numeros permiten a las personas que llaman comunicarse con una extension especifica sin hablar con una centralita ni utilizar un sistema de menu automatizado. Los numeros DDI suelen estar dentro de un rango asociado con el numero principal de la empresa."
+            ]
+        },
+        {
+            "tag": "ddi provider",
+            "patterns": [
+                "ddi provider",
+                "ddi providers"
+            ],
+            "responses": [
+                "Los Proveedores DDI son las entidades SIP que se comunicaran con la plataforma cuando alguien llame a uno de los DDI de nuestros clientes."
+            ]
+        },
+        {
+            "tag": "rutas salientes",
+            "patterns": [
+                "ruta saliente",
+                "rutas salientes"
+            ],
+            "responses": [
+                "El enrutamiento saliente en VoIP implica dirigir llamadas salientes desde una red VoIP a sus destinos previstos mediante reglas y configuraciones."
+            ]
+        },
+        {
+            "tag": "grupos de patrones de ruta",
+            "patterns": [
+                "grupos de patron de enrutamiento",
+                "grupos de patrones de ruta",
+                "grupos de patrones de enrutado",
+                "grupos de patron de encaminamiento",
+                "grupos de patrones de encaminamiento"
+            ],
+            "responses": [
+                "Every routing pattern will be linked to a Carrier. \n That’s why it can be useful to group the Routing patterns in routing pattern groups so that we can use a whole group in a routing rule. \n By default we can see the countries grouped in the continents defined in ISO 3166."
+            ]
+        },
+        {
+            "tag": "patrones de ruta",
+            "patterns": [
+                "patrones de enrutamiento",
+                "patrones de ruta",
+                "patrones de enrutado",
+                "patrones de encaminamiento",
+                "patrones de encaminamiento"
+            ],
+            "responses": [
+                "Cuando un usuario marca un numero de telefono externo, IvozProvider intenta categorizar esta llamada en uno de los patrones de enrutamiento definidos en esta seccion. Una vez categorizado, el patron se utilizara en el proceso de enrutamiento descrito en Enrutamientos salientes. \n Normalmente sera util tener un patron de enrutamiento para los paises definidos en la ISO 3166. Es por eso que IvozProvider incluye automaticamente todos estos paises y sus prefijos."
+            ]
+        }
+    ]
+}

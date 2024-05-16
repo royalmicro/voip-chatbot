@@ -1,0 +1,71 @@
+{
+    "configuration": [
+        {
+            "tag": "carrier",
+            "patterns": [
+                "carrier",
+                "carriers"
+            ],
+            "responses": [
+                "Para configurar un carrier, debes estar en el portal de marca, ir a Proveedores > Carriers y añadir un nuevo carrier"
+            ]
+        },
+        {
+            "tag": "ddi",
+            "patterns": [
+                "ddi",
+                "ddis"
+            ],
+            "responses": [
+                "Para configurar un ddi, debes estar en el portal de marca, ir a Proveedores > Ddis y añadir un nuevo ddi"
+            ]
+        },
+        {
+            "tag": "ddi provider",
+            "patterns": [
+                "ddi provider",
+                "ddi providers"
+            ],
+            "responses": [
+                "Para configurar un ddi provider, debes estar en el portal de marca, ir a Proveedores > Ddi Providers y añadir un nuevo ddi provider"
+            ]
+        },
+        {
+            "tag": "rutas salientes",
+            "patterns": [
+                "ruta saliente",
+                "rutas salientes"
+            ],
+            "responses": [
+                "Para configurar una ruta saliente, debes estar en el portal de marca, ir a Encaminamiento > Rutas salientes y añadir una nueva ruta saliente"
+            ]
+        },
+        {
+            "tag": "grupos de patrones de ruta",
+            "patterns": [
+                "grupos de patron de enrutamiento",
+                "grupos de patrones de ruta",
+                "grupos de patrones de enrutado",
+                "grupos de patron de encaminamiento",
+                "grupos de patrones de encaminamiento"
+            ],
+            "responses": [
+                "Para configurar un grupo de patron de enrutamiento, debes estar en el portal de marca, ir a Encaminamiento > Grupos de Patrones de ruta y añadir un nuevo Grupo de Patron de ruta"
+            ]
+        },
+        {
+            "tag": "patrones de ruta",
+            "patterns": [
+                "patrones de enrutamiento",
+                "patrones de ruta",
+                "patrones de enrutado",
+                "patrones de encaminamiento",
+                "patrones de encaminamiento"
+
+            ],
+            "responses": [
+                "Para configurar un patron de enrutamiento, debes estar en el portal de marca, ir a Encaminamiento > Patrones de ruta y añadir un nuevo Patron de ruta"
+            ]
+        }
+    ]
+}

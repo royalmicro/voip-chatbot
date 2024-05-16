@@ -4,3 +4,4 @@ colorama==0.4.6
 numpy==1.26.4
 scikit-learn==1.4.2
 Flask==3.0.3
+keras==3.2.1

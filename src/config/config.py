@@ -6,6 +6,7 @@ class Config:
     
     MODEL_INIT = "init"
     MODEL_CONFIGURATION = "configuration"
+    MODEL_INFORMATION = "information"
 
     def __init__(self) -> None:
         self.data_path = os.path.abspath(
